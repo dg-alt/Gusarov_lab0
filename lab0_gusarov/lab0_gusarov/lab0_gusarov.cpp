@@ -2,12 +2,17 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
     int a;
-    std::cout << "Hello World!\n";
-    std::cin >> a;
+    cin >> a;
+    if (a == 0)
+    {
+        cout << "Hello World!\n";
+    }
+    
+    
     
 }
 
